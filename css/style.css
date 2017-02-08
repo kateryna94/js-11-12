@@ -1,0 +1,46 @@
+.carousel-wrapper {
+  width: 570px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.carousel-hider {
+  width: 500px;
+  overflow: hidden;
+  float: left;
+}
+
+.carousel-list {
+    list-style: none;
+    width: 10000px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.carousel-element {
+    display: block;
+    float: left;
+}
+
+.carousel-element img {
+    width: 500px;
+    height: 320px;
+    position: relative;
+}
+
+.carousel-arrow-left,
+.carousel-arrow-right {
+  float: left;
+  margin-top: 130px;
+}
+
+.icon {
+font-size: 30px;
+position: absolute;
+z-index: 1;
+}
+
+.icon .icon-chevron-sign-left {
+  margin-left: -25px;
+}

@@ -1,0 +1,72 @@
+.name {
+    font: bold 36px Arial;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-bottom: 24px;
+}
+
+img {
+    border: 1px solid grey;
+    box-shadow: 0 0 1px;
+}
+
+.teacher {
+    font-family: Arial;
+    font-size: 14px;
+    color: #898788;
+}
+
+@font-face {
+    font-family: MyriadPro;
+    src: url(../fonts/MyriadProBold.ttf);
+    font-style: bold;
+}
+
+@font-face {
+    font-family: MyriadPro;
+    src: url(../fonts/MyriadProRegular.ttf);
+}
+
+h3 {
+    font: bold 14px MyriadPro;
+}
+
+
+li {
+    font: 14px MyriadPro;
+}
+
+.ph_n {
+    font: 14px MyriadPro;
+    text-indent: 40px;
+}
+
+.photo {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.under_picture {
+
+    padding-bottom: 10px;
+    border-bottom: 2px solid #c8c9c9;
+}
+
+
+a {
+    font-style: italic;
+}
+
+body {
+    background-color: #F3F3F3;
+}
+
+.wrapper {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.my_pic {
+  width: 230px;
+}

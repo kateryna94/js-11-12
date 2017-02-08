@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>HW 11-12</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="js/jquery.carousel.js"></script>
+    <script src="js/tmpl.js"></script>
+</head>
+
+<body>
+    <div class="carousel-wrapper">
+        <div class="carousel-arrow-left"><span class="icon"><i class="icon-chevron-sign-left"></i></span></div>
+        <div class="carousel-hider">
+            <ul class="carousel-list">
+                <li class="carousel-element"><img src="img/img1.jpg" alt=""></li>
+                <li class="carousel-element"><img src="img/img2.jpg" alt=""></li>
+                <li class="carousel-element"><img src="img/img3.jpg" alt=""></li>
+                <li class="carousel-element"><img src="img/img4.jpg" alt=""></li>
+            </ul>
+        </div>
+        <div class="carousel-arrow-right"><span class="icon"><i class="icon-chevron-sign-right"></i></span> </div>
+    </div>
+    <script src="js/script.js">
+
+    </script>
+
+<script type="text/html" id="user">
+  <div class="wrapper">
+    <h2 class="name"><%= name %></h2>
+    <div class="photo">
+        <img class="my_pic" src="img/me.jpg" alt="it`s me" />
+    </div>
+
+    <div class="under_picture">
+        <p class="teacher"><%= job %></p>
+    </div>
+    <div class="under_picture">
+        <h3><%= reason %></h3>
+
+        <ul>
+            <li><%= firstReason %></li>
+            <li><%= secondReason %></li>
+            <li><%= thirdReason %></li>
+        </ul>
+
+    </div>
+
+    <div class="under_picture">
+        <h3><%= contactTitle %></h3>
+        <p class="ph_n"><%= contactNumber %></p>
+    </div>
+
+    <div class="under_picture">
+
+        <h3><%= vkontakte %></h3>
+        <p class="ph_n"><a href="https://vk.com/id52976691"><%= link %></a></p>
+    </div>
+
+    <div class="under_picture1">
+        <h3><%= feedbackTitle %></h3>
+        <p class="ph_n"><%= feedback %></p>
+    </div>
+      </div>
+</script>
+
+</body>
+
+</html>
